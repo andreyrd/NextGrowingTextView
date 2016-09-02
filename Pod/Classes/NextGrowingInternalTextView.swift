@@ -49,7 +49,7 @@ internal class NextGrowingInternalTextView: UITextView {
         }
     }
     
-    var placeholderAttributedText: AttributedString? {
+    var placeholderAttributedText: NSAttributedString? {
         didSet {
             self.setNeedsDisplay()
         }
